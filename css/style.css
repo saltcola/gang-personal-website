@@ -3,6 +3,8 @@
   color: red;
   font-family: 'Black Ops One', cursive;
   font-size: -webkit-xxx-large;
+  margin-bottom: 0px;
+  margin-top: 0px
 }
 
 .header p {
@@ -11,6 +13,32 @@
   font-size: xx-small;
 }
 
+a:link { color: gray;text-decoration: none;} 
+a:visited { color: purple } 
+a:hover { font-weight: bold }
+a:active { color: lime } 
+
+.header {
+  border-bottom-style: solid; 
+  border-bottom-color: black;
+  border-bottom-width: thin;
+}
+
+#objective {
+  color: gray;
+  font-family: 'Press Start 2P', cursive;
+  font-size: small;
+}
+#objective h3 {
+  border-bottom-style: solid; 
+  border-bottom-color: black;
+  border-bottom-width: thin;  
+}
+
+#objective p {
+  text-indent: 3em;
+  line-height: 2em;
+}
 
 
 
