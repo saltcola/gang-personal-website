@@ -34,6 +34,11 @@ a:active { color: lime }
   border-bottom-color: black;
   border-bottom-width: thin;  
 }
+h3 {
+  border-bottom-style: solid; 
+  border-bottom-color: black;
+  border-bottom-width: thin;  
+}
 
 #objective p {
   text-indent: 3em;
