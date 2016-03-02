@@ -1,2 +1,2 @@
-#gang-personal-website
+#Gang-personal-website
 A developing personal website 
