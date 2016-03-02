@@ -1,1 +1,39 @@
 /* All style should go in this document. */
+.header h1 {
+  color: red;
+  font-family: 'Black Ops One', cursive;
+  font-size: -webkit-xxx-large;
+}
+
+.header p {
+  color: gray;
+  font-family: 'Press Start 2P', cursive;
+  font-size: xx-small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  font-family: 'VT323', ;
+  font-family: 'Lobster', cursive;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Press Start 2P', cursive;
+}
