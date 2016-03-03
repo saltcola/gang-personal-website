@@ -1,47 +1,62 @@
-/* All style should go in this document. */
+
+
 .header h1 {
-  color: red;
-  font-family: 'Black Ops One', cursive;
-  font-size: -webkit-xxx-large;
-  margin-bottom: 0px;
-  margin-top: 0px
+    color: red;
+    font-family: 'Black Ops One', cursive;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 0px;
+    margin-top: 0px
 }
 
 .header p {
-  color: gray;
-  font-family: 'Press Start 2P', cursive;
-  font-size: xx-small;
+    color: gray;
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-small;
 }
 
-a:link { color: gray;text-decoration: none;} 
-a:visited { color: purple } 
-a:hover { font-weight: bold }
-a:active { color: lime } 
-
-.header {
-  border-bottom-style: solid; 
-  border-bottom-color: black;
-  border-bottom-width: thin;
+a:link {
+    color: gray;
+    text-decoration: none;
 }
 
-#objective {
-  color: gray;
-  font-family: 'Press Start 2P', cursive;
-  font-size: small;
-}
-#objective h3 {
-  border-bottom-style: solid; 
-  border-bottom-color: black;
-  border-bottom-width: thin;  
-}
-h3 {
-  border-bottom-style: solid; 
-  border-bottom-color: black;
-  border-bottom-width: thin;  
+a:visited {
+    color: purple
 }
 
-#objective p {
-  text-indent: 3em;
+a:hover {
+    font-weight: bold
+}
+
+a:active {
+    color: lime
+}
+
+.content {
+    color: gray;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+}
+
+.content dt {
+   font-size: medium;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+}
+
+.content h3 {
+    font-size: medium;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+}
+
+.content p {
+    text-indent: 3em;
+    line-height: 2em;
+}
+
+li {
   line-height: 2em;
 }
 
@@ -50,23 +65,10 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-  font-family: 'VT323', ;
-  font-family: 'Lobster', cursive;
-  font-family: 'Sigmar One', cursive;
-  font-family: 'Black Ops One', cursive;
-  font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', ;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Press Start 2P', cursive;
 }
