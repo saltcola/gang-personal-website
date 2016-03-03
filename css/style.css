@@ -1,7 +1,5 @@
-
-
 .header h1 {
-    color: red;
+    color: #DE1B1B;
     font-family: 'Black Ops One', cursive;
     font-size: -webkit-xxx-large;
     margin-bottom: 0px;
@@ -9,13 +7,13 @@
 }
 
 .header p {
-    color: gray;
+    color: #F6F6F6;
     font-family: 'Press Start 2P', cursive;
     font-size: xx-small;
 }
 
 a:link {
-    color: gray;
+    color: #F6F6F6;
     text-decoration: none;
 }
 
@@ -32,23 +30,25 @@ a:active {
 }
 
 .content {
-    color: gray;
+    color: #F6F6F6;
     font-family: 'Press Start 2P', cursive;
     font-size: small;
 }
 
 .content dt {
-   font-size: medium;
+    color:#E9E581;
+    font-size: medium;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    border-bottom-width: thin;
+    border-bottom-color: #DE1B1B;
+    border-bottom-width: thick;
 }
 
 .content h3 {
+    color:#E9E581;
     font-size: medium;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    border-bottom-width: thin;
+    border-bottom-color: #DE1B1B;
+    border-bottom-width: thick;
 }
 
 .content p {
@@ -56,19 +56,18 @@ a:active {
     line-height: 2em;
 }
 
-li {
-  line-height: 2em;
+.content dd h4{
+  color: #A8CD1B;
 }
 
+.content dd h5{
+  color: gray;
+}
 
+li {
+    line-height: 2em;
+}
 
-
-
-
-{
-    font-family: 'VT323', ;
-    font-family: 'Lobster', cursive;
-    font-family: 'Sigmar One', cursive;
-    font-family: 'Black Ops One', cursive;
-    font-family: 'Press Start 2P', cursive;
+body {
+  background-color:#2b2b2b;
 }
