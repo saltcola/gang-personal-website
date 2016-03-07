@@ -1,3 +1,9 @@
+
+body {
+  background-color:#2b2b2b;
+  font-family: 'Press Start 2P', cursive;
+}
+
 .header h1 {
     color: #DE1B1B;
     font-family: 'Black Ops One', cursive;
@@ -7,8 +13,7 @@
 }
 
 .header p {
-    color: #F6F6F6;
-    font-family: 'Press Start 2P', cursive;
+    color: #F6F6F6;    
     font-size: xx-small;
 }
 
@@ -31,7 +36,6 @@ a:active {
 
 .content {
     color: #F6F6F6;
-    font-family: 'Press Start 2P', cursive;
     font-size: small;
 }
 
@@ -68,6 +72,37 @@ li {
     line-height: 2em;
 }
 
-body {
-  background-color:#2b2b2b;
+
+/*
+.index div {
+    height : 300px;
+    width:    400px;
+    background-color: #547980;
+    border-radius: 5px;
+    border: 2px, solid, black;
+    
+    position:relative;
+    left: 200px;  
+}
+*/
+
+.index {
+    background-image: url(./resources/pic/giphy.gif);
+    background-color: #cccccc;
+}
+
+.center {
+    background-image: url("./resources/pic/giphy.gif");
+    background-color: #cccccc;
+    text-align: center;
+    color:  #DE1B1B ;
+    font-size:100%;
+    text-shadow: 2px 2px #ff0000;
+}
+
+
+#name {
+    color:  #DE1B1B ;
+    font-size: 800%;
+    text-shadow: 2px 2px #ff0000;
 }
