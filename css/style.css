@@ -27,6 +27,7 @@ a:visited {
 }
 
 a:hover {
+     background-color:#DE1B1B;
     font-weight: bold
 }
 
@@ -72,37 +73,37 @@ li {
     line-height: 2em;
 }
 
-
-/*
-.index div {
-    height : 300px;
-    width:    400px;
-    background-color: #547980;
-    border-radius: 5px;
-    border: 2px, solid, black;
-    
-    position:relative;
-    left: 200px;  
-}
-*/
-
 .index {
     background-image: url(./resources/pic/giphy.gif);
     background-color: #cccccc;
 }
 
 .center {
-    /*background-image: url("./resources/pic/giphy.gif");
-    background-color: #cccccc;*/
     text-align: center;
     color:  #DE1B1B ;
     font-size:100%;
     text-shadow: 2px 2px #ff0000;
+    position:relative;
+    top: 120px;
+}
+
+.center a:link {
+    color: #A8CD1B;;
+    text-decoration: none;
+}
+
+.center a:hover {
+    color: #A8CD1B;;;
+    font-weight: bold    
+}
+
+a:visited {
+    color: #A8CD1B;;
 }
 
 
 #name {
     color:  #DE1B1B ;
     font-size: 800%;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 5px 5px #A8CD1B;
 }
