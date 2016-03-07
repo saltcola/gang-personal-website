@@ -92,8 +92,8 @@ li {
 }
 
 .center {
-    background-image: url("./resources/pic/giphy.gif");
-    background-color: #cccccc;
+    /*background-image: url("./resources/pic/giphy.gif");
+    background-color: #cccccc;*/
     text-align: center;
     color:  #DE1B1B ;
     font-size:100%;
