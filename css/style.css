@@ -47,9 +47,15 @@
 ***Style for resume.html 
 ***********************************************************************
 ***********************************************************************/
+nav {
+    background-color: #2b2b2b;  
+}
+
+header {
+    padding-top: 35px;
+}
 
 header h1 {
-    margin-left: 15px;
     color: #DE1B1B ;
     font-family: 'Black Ops One', cursive ;
     font-size: 400%;       
@@ -85,16 +91,13 @@ header a:active {
 }
 
 .content {
-    /*top:120px;*/
     color: #F6F6F6 ;
     font-size: small ;
-    position: relative ;
-    left:0;
 }
 
 .content dt {
     color:#E9E581 ;
-    font-size: medium ;
+    font-size: large; ;
     border-bottom-style: solid ;
     border-bottom-color: #DE1B1B ;
     border-bottom-width: thick ;
@@ -102,7 +105,7 @@ header a:active {
 
 .content h3 {
     color:#E9E581 ;
-    font-size: medium ;
+    font-size: large; ;
     border-bottom-style: solid ;
     border-bottom-color: #DE1B1B ;
     border-bottom-width: thick ;
@@ -113,6 +116,9 @@ header a:active {
     line-height: 2em ;
 }
 
+.content dd {
+    padding-left:  20px;
+}
 .content dd h4{
   color: #A8CD1B ;
 }
