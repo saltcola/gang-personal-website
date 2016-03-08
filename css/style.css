@@ -1,109 +1,126 @@
-
-body {
-  background-color:#2b2b2b;
-  font-family: 'Press Start 2P', cursive;
-}
-
-.header h1 {
-    color: #DE1B1B;
-    font-family: 'Black Ops One', cursive;
-    font-size: -webkit-xxx-large;
-    margin-bottom: 0px;
-    margin-top: 0px
-}
-
-.header p {
-    color: #F6F6F6;    
-    font-size: xx-small;
-}
-
-a:link {
-    color: #F6F6F6;
-    text-decoration: none;
-}
-
-a:visited {
-    color: purple
-}
-
-a:hover {
-     background-color:#DE1B1B;
-    font-weight: bold
-}
-
-a:active {
-    color: lime
-}
-
-.content {
-    color: #F6F6F6;
-    font-size: small;
-}
-
-.content dt {
-    color:#E9E581;
-    font-size: medium;
-    border-bottom-style: solid;
-    border-bottom-color: #DE1B1B;
-    border-bottom-width: thick;
-}
-
-.content h3 {
-    color:#E9E581;
-    font-size: medium;
-    border-bottom-style: solid;
-    border-bottom-color: #DE1B1B;
-    border-bottom-width: thick;
-}
-
-.content p {
-    text-indent: 3em;
-    line-height: 2em;
-}
-
-.content dd h4{
-  color: #A8CD1B;
-}
-
-.content dd h5{
-  color: gray;
-}
-
-li {
-    line-height: 2em;
-}
-
+/**********************************************************************
+*********************************************************************** 
+***Style for index.html 
+***********************************************************************
+***********************************************************************/
 .index {
-    background-image: url(./resources/pic/giphy.gif);
-    background-color: #cccccc;
+    font-family: 'Press Start 2P', cursive ;
+    background-image: url(./resources/pic/giphy.gif) ;
+    background-color: #cccccc ;
 }
 
 .center {
-    text-align: center;
+    text-align: center ;
     color:  #DE1B1B ;
-    font-size:100%;
-    text-shadow: 2px 2px #ff0000;
-    position:relative;
-    top: 120px;
+    font-size:100% ;
+    text-shadow: 2px 2px #ff0000 ;
+    position:relative ;
+    top: 120px ;
 }
 
 .center a:link {
-    color: #A8CD1B;;
-    text-decoration: none;
+    color: #A8CD1B ;
+    text-decoration: none ;
+}
+
+.center a:visited {
+    color: #A8CD1B ;
 }
 
 .center a:hover {
-    color: #A8CD1B;;;
-    font-weight: bold    
-}
-
-a:visited {
-    color: #A8CD1B;;
-}
-
-
-#name {
     color:  #DE1B1B ;
-    font-size: 800%;
-    text-shadow: 5px 5px #A8CD1B;
+    font-weight: bold ;   
 }
+
+.center a:active {
+    color: #A8CD1B ;
+}
+
+.name {
+    color:  #DE1B1B ;
+    font-size: 800% ;
+    text-shadow: 5px 5px #A8CD1B ;
+}
+
+/**********************************************************************
+*********************************************************************** 
+***Style for resume.html 
+***********************************************************************
+***********************************************************************/
+
+header h1 {
+    color: #DE1B1B ;
+    font-family: 'Black Ops One', cursive ;
+    font-size: -webkit-xxx-large; 
+    margin-bottom: 0px ;
+    margin-top: 0px ;
+}
+
+header p {
+    color: #F6F6F6 ;    
+    font-size: xx-small ; 
+}
+
+.resume {
+  background-color:#2b2b2b ;
+  font-family: 'Press Start 2P', cursive ;
+}
+
+header a:link {
+    color: #F6F6F6 ;
+    text-decoration: none ; 
+}
+
+header a:visited {
+    color: purple ;
+}
+
+header a:hover {
+    background-color:#DE1B1B ;
+    font-weight: bold ;
+}
+
+header a:active {
+    color: #A8CD1B ;
+}
+
+.content {
+    /*top:120px;*/
+    color: #F6F6F6 ;
+    font-size: small ;
+    position: relative ;
+}
+
+.content dt {
+    color:#E9E581 ;
+    font-size: medium ;
+    border-bottom-style: solid ;
+    border-bottom-color: #DE1B1B ;
+    border-bottom-width: thick ;
+}
+
+.content h3 {
+    color:#E9E581 ;
+    font-size: medium ;
+    border-bottom-style: solid ;
+    border-bottom-color: #DE1B1B ;
+    border-bottom-width: thick ;
+}
+
+.content p {
+    text-indent: 3em ;
+    line-height: 2em ;
+}
+
+.content dd h4{
+  color: #A8CD1B ;
+}
+
+.content dd h5{
+  color: gray ;
+}
+
+li {
+    line-height: 2em ;
+}
+
