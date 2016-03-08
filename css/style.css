@@ -48,17 +48,23 @@
 ***********************************************************************
 ***********************************************************************/
 
+header {
+    display:inline-flex;
+}
+
 header h1 {
     color: #DE1B1B ;
     font-family: 'Black Ops One', cursive ;
-    font-size: -webkit-xxx-large; 
-    margin-bottom: 0px ;
+    font-size: 400%; 
     margin-top: 0px ;
+    margin-bottom: 0px ;    
 }
 
-header p {
+header div {
+    position : relative;
     color: #F6F6F6 ;    
-    font-size: xx-small ; 
+    font-size: x-small; 
+    margin-left: 20px;
 }
 
 .resume {
@@ -89,6 +95,7 @@ header a:active {
     color: #F6F6F6 ;
     font-size: small ;
     position: relative ;
+    left:0;
 }
 
 .content dt {
