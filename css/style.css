@@ -129,6 +129,17 @@ header a:active {
     border-bottom-width: thick ;
 }
 
+.content img {
+   /*
+    height: auto; 
+    width: auto; 
+    */
+    margin-top: 10px;
+    max-width: 60px; 
+    max-height: 60px;
+
+}
+
 .content p {
     text-indent: 3em ;
     line-height: 2em ;
@@ -143,6 +154,17 @@ header a:active {
 
 .content dd h5{
   color: gray ;
+}
+
+.skills {
+    padding-left: 30px;
+
+}
+
+.skills img{
+    align:right;
+    height: auto; 
+    width: auto; 
 }
 
 li {
