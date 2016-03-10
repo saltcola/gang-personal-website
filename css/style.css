@@ -56,6 +56,7 @@ header {
 }
 
 header h1 {
+    padding-left: 20px;
     color: #DE1B1B ;
     font-family: 'Black Ops One', cursive ;
     font-size: 400%;       
@@ -65,6 +66,18 @@ header .col-sm-8 {
     padding-top: 20px ;
     color: #F6F6F6 ;    
     font-size: x-small; 
+}
+
+span.glyphicon-home {
+    font-size: 1.5em;
+}
+
+span.glyphicon-phone {
+    font-size: 1.5em;
+}
+
+span.glyphicon-envelope {
+    font-size: 1.5em;
 }
 
 .resume {
@@ -93,6 +106,11 @@ header a:active {
 .content {
     color: #F6F6F6 ;
     font-size: small ;
+}
+
+.objective {
+    padding-left:  30px;
+    padding-right: 30px;
 }
 
 .content dt {
