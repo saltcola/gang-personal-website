@@ -51,41 +51,42 @@
 ***********************************************************************/
 
 nav {
-    background-color: rgba(#2b2b2b,0.1);
+    background-color: rgba(#2b2b2b, 0.1);
     font-family: 'Press Start 2P', cursive;
 }
 
 body {
-  background: #2C3D51;
-  padding: 1em;
-  -webkit-font-smoothing: antialiased;
-  background-image: url(./resources/pic/blue-matrix-animated.gif);
+    background: #2C3D51;
+    padding: 1em;
+    -webkit-font-smoothing: antialiased;
+    background-image: url(./resources/pic/blue-matrix-animated.gif);
 }
 
 section {
-  display: block;
-  max-width: 800px;
-  background: #2b2b2b;
-  margin: 0 auto 1em;
-  padding: 10px;
-  border-radius: .2em;
-  position: relative;
-  font-family: 'Press Start 2P', cursive;
-   color:#DE1B1B;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    display: block;
+    max-width: 800px;
+    background: #2b2b2b;
+    margin: 0 auto 1em;
+    padding: 10px;
+    border-radius: .2em;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    color: #F6F6F6;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .header {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .header h1 {
-	padding-top: 10px;
-	font-family: 'Black Ops One', cursive;
-	font-size: 400%;
-	margin: 0;
+    color: #DE1B1B;
+    padding-top: 10px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 400%;
+    margin: 0;
 }
 
 .header .col-sm-8 {
@@ -113,7 +114,6 @@ section {
     color: #A8CD1B;
 }
 
-
 section h3,
 section dt {
     color: #E9E581;
@@ -125,7 +125,7 @@ section dt {
 }
 
 .glyphicon-education {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 section dd h4 {
@@ -138,12 +138,6 @@ section dd h5 {
 }
 
 .skills img {
-	max-width: 60px;
-	max-height: 60px;
+    max-width: 60px;
+    max-height: 60px;
 }
-
-
-
-
-
-
