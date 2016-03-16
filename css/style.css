@@ -14,9 +14,8 @@
     text-align: center;
     color: #DE1B1B;
     font-size: 100%;
-    text-shadow: 2px 2px #ff0000;
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 .center a:link {
@@ -38,6 +37,9 @@
 }
 
 .name {
+    /*
+    font-family: 'Black Ops One', cursive;
+    */
     color: #DE1B1B;
     font-size: 800%;
     text-shadow: 5px 5px #A8CD1B;
@@ -127,10 +129,6 @@ section dt {
 
 .objective p{
     text-indent: 35px;
-}
-
-.glyphicon-education {
-    font-size: 2em;
 }
 
 section dd h4 {
