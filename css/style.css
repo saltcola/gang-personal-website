@@ -59,7 +59,7 @@ body {
     background: #2C3D51;
     padding: 1em;
     -webkit-font-smoothing: antialiased;
-    background-image: url(./resources/pic/blue-matrix-animated.gif);
+    background-image: url(./resources/pic/static-matrix.png);
 }
 
 section {
