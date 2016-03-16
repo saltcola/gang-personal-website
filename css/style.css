@@ -122,6 +122,11 @@ section dt {
     border-bottom-style: solid;
     border-bottom-color: #DE1B1B;
     border-bottom-width: thick;
+    text-indent: 10px;
+}
+
+.objective p{
+    text-indent: 35px;
 }
 
 .glyphicon-education {
