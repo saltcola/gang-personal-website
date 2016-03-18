@@ -18,32 +18,50 @@
     top: 150px;
 }
 
-.center a:link {
+.link:link,
+.link:visited,
+.link:active  {
     color: #A8CD1B;
     text-decoration: none;
 }
 
-.center a:visited {
-    color: #A8CD1B;
-}
-
-.center a:hover {
+.link:hover {
     color: #DE1B1B;
     font-weight: bold;
 }
 
-.center a:active {
-    color: #A8CD1B;
-}
-
-.name {
-    /*
-    font-family: 'Black Ops One', cursive;
-    */
+.name-link,
+.name-link:link,
+.name-link:visited,
+.name-link:active {
+    text-decoration: none;
     color: #DE1B1B;
-    font-size: 800%;
+    font-size: 400%;
     text-shadow: 5px 5px #A8CD1B;
 }
+
+#name{
+    margin:20px;
+}
+
+#name:hover{
+    transform:rotate(-5deg) scale(1.8,1.8);
+    transition-duration: 2000ms; 
+}
+
+.center i:hover{
+    transform: rotate(360deg);
+    transition-duration: 2000ms; 
+}
+
+.center .link:hover{
+    transform: rotate(360deg);
+    transition-duration: 2000ms; 
+}
+
+
+
+
 
 
 /**********************************************************************
