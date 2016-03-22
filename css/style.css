@@ -73,7 +73,6 @@ nav {
 body.resume {
     background: #2C3D51;
     padding: 1em;
-    -webkit-font-smoothing: antialiased;
     background-image: url(../img/static-matrix.png);
 }
 
@@ -87,8 +86,6 @@ section {
     position: relative;
     font-family: 'Press Start 2P', cursive;
     color: #F6F6F6;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
     overflow: hidden;
 }
@@ -165,5 +162,6 @@ section dd h5 {
 }
 
 .icon {
+    color: #A8CD1B;
     font-size: 300%;
 }
