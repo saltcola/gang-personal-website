@@ -6,7 +6,7 @@
 
 .index {
     font-family: 'Press Start 2P', cursive;
-    background-image: url(./resources/pic/blue-matrix-animated.gif);
+    background-image: url(../img/blue-matrix-animated.gif);
     background-color: #cccccc;
 }
 
@@ -74,7 +74,7 @@ body.resume {
     background: #2C3D51;
     padding: 1em;
     -webkit-font-smoothing: antialiased;
-    background-image: url(./resources/pic/static-matrix.png);
+    background-image: url(../img/static-matrix.png);
 }
 
 section {
@@ -162,4 +162,8 @@ section dd h5 {
 .section-hover {
     transform: scale(1.2);
     z-index: 1000;
+}
+
+.icon {
+    font-size: 300%;
 }
