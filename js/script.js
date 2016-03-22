@@ -2,7 +2,7 @@
 
 $(document).ready(function(){	
 
-	$(".selector").hover(function () {
+	$(".selector").hover(function (){
 		$(this).children("a").children("i").
 		addClass("fa-hover-rotate");
 	})

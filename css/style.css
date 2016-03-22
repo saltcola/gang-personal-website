@@ -11,11 +11,12 @@
 }
 
 .center {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
     text-align: center;
     color: #DE1B1B;
     font-size: 100%;
-    position: relative;
-    top: 100px;
 }
 
 .link {
@@ -29,14 +30,22 @@
     text-decoration: none;
 }
 
-.link:hover {
-    color: #DE1B1B;
+.link:hover { 
+    color: #DE1B1B; 
     font-weight: bold;    
     transition-duration: 2000ms;    
 }
 
+.selector {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 260px;
+}
+
+
+
 .fa-hover-rotate{
-   color: #DE1B1B;
+  color: #DE1B1B;
    transform: rotate(360deg);
    transition-duration: 2000ms;  
 }
@@ -56,7 +65,7 @@
   margin: 10px;
 }
 #name:hover{
-    transform:rotate(-5deg) scale(1.8,1.8);
+    transform:rotate(-5deg) scale(1.5,1.5);
     transition-duration: 2000ms; 
     z-index: 1000;
 }
