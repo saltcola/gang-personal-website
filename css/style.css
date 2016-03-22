@@ -15,7 +15,11 @@
     color: #DE1B1B;
     font-size: 100%;
     position: relative;
-    top: 150px;
+    top: 100px;
+}
+
+.link {
+  font-size: 1.5rem;
 }
 
 .link:link,
@@ -27,8 +31,16 @@
 
 .link:hover {
     color: #DE1B1B;
-    font-weight: bold;
+    font-weight: bold;    
+    transition-duration: 2000ms;    
 }
+
+.fa-hover-rotate{
+   color: #DE1B1B;
+   transform: rotate(360deg);
+   transition-duration: 2000ms;  
+}
+
 
 .name-link,
 .name-link:link,
@@ -40,24 +52,15 @@
     text-shadow: 5px 5px #A8CD1B;
 }
 
-#name{
-    margin:20px;
+#name h1{
+  margin: 10px;
 }
-
 #name:hover{
     transform:rotate(-5deg) scale(1.8,1.8);
     transition-duration: 2000ms; 
+    z-index: 1000;
 }
 
-.center i:hover{
-    transform: rotate(360deg);
-    transition-duration: 2000ms; 
-}
-
-.center .link:hover{
-    transform: rotate(360deg);
-    transition-duration: 2000ms; 
-}
 
 /**********************************************************************
 *********************************************************************** 
